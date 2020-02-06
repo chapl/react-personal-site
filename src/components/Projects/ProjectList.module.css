@@ -29,7 +29,6 @@
 }
 
 .Link {
-  width: 50%;
   font: inherit;
   background: rgba(83, 95, 107, 0.5);
   padding: 0.5rem 2rem;
@@ -44,7 +43,6 @@
 .Stack{
   padding: 0 1rem;
   display: inline-block;
-  width:50%;
 }
 
 .ProjTitle {

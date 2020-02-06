@@ -7,12 +7,12 @@ import classes from './ContactBare.module.css'
 const ContactBare = () => {
     const sendMail = (event) => {
         event.preventDefault();
-        window.open(`mailto:${process.env.REACT_APP_EMAIL}`);
+        window.location.href = `mailto:${process.env.REACT_APP_EMAIL}`;
     }
 
     const github = (event) => {
         event.preventDefault();
-        window.open(process.env.REACT_APP_GITHUB);
+        window.location.href = process.env.REACT_APP_GITHUB;
     }
 
     return (

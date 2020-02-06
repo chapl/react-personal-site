@@ -1,0 +1,24 @@
+.Top {
+    margin-top: 0.5rem;
+    text-align: center;
+    /* color: rgba(23,26,30,0.8); */
+    color: white;
+}
+
+.JP {
+    font-family: 'M PLUS Rounded 1c';
+}
+
+@media (min-width: 500px) {
+    .Card{    
+        margin-top: 20%;
+    }
+}
+
+
+
+@media(min-height: 450px){
+    .Top {
+        margin-top: 25%;
+    }
+}

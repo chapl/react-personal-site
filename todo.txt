@@ -1,0 +1,3 @@
+implement spinners, loading indicator for img upload, spinner for loading database projects
+move bike gpx to database/storage
+possibly make express server for a proper contact page; filter incoming with no url regex to avoid spam

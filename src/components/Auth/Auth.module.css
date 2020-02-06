@@ -1,0 +1,9 @@
+.ButtonDiv {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.Form {
+  margin-top: 3rem;
+}

@@ -1,0 +1,51 @@
+.FormControl {
+  margin:0 auto;
+  max-width: 95%;
+  box-sizing: border-box;
+}
+
+.FormControl label,
+.FormControl input {
+  display: block;
+  width: 100%;
+}
+
+.File {
+  width: 50%;
+  font: inherit;
+  background: rgba(83, 95, 107, 0.5);
+  padding: 0.5rem 0 !important;
+  color: white;
+  border: 1px solid white;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.File:hover{
+  box-shadow:        
+    0px 0px 12px 0 rgba(245,245,245, 0.5),
+    0px 0px 12px 0 rgba(130,130,130, 0.8);
+}
+
+
+.File::-webkit-file-upload-button {
+  visibility: hidden;  
+}
+
+@media(min-width: 500px){
+  .File {
+    padding-left: 5rem;  
+  }
+}
+
+.Submit {
+  width:100%;
+  margin: 0.7rem;
+  box-sizing: border-box;
+}
+
+.ProjectForm {
+  padding-top: 1rem;
+}

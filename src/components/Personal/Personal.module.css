@@ -1,0 +1,46 @@
+*{
+    color:white;
+}
+
+.Title{
+    margin-top: 2rem;
+    font-weight: normal;
+}
+
+.ImageH{
+    max-width: 90%;
+    display: inline-block;
+    margin: 1rem auto;
+}
+
+.Woodwork {
+    max-width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1rem 0;
+}
+.ImageV{
+    max-width: 50%;
+    display: inline-block;
+}
+
+.GPXRoutes {
+    list-style-type: none;
+}
+
+.Detail {
+    margin-top: 1rem;
+}
+
+@media(min-width: 500px) {
+    .Para{
+        padding:1em;
+        line-height: 30px;
+    }
+}
+
+/* @media(min-width: 800px) {
+    .Woodwork{
+        line-height: 50px;
+    }
+} */

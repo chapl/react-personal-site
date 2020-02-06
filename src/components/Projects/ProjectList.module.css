@@ -1,0 +1,53 @@
+.Image {
+  max-width: 100%;
+  display: block;
+  margin: 1rem auto;
+}
+
+.List {
+  padding:0;
+}
+.Row {
+  margin: 2rem;
+}
+
+.Body{
+  padding:0.5rem;
+}
+
+.Title {
+  padding: 0 0.5rem;
+}
+.Content {
+  padding:0.5rem;
+}
+
+.Details {
+  margin: auto;
+  width: 100%;
+  display: inline-block;
+}
+
+.Link {
+  width: 50%;
+  font: inherit;
+  background: rgba(83, 95, 107, 0.5);
+  padding: 0.5rem 2rem;
+  color: white;
+  border: 1px solid white;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Stack{
+  padding: 0 1rem;
+  display: inline-block;
+  width:50%;
+}
+
+.ProjTitle {
+  margin-top: 2rem;
+  margin-bottom: 0.3rem;
+}

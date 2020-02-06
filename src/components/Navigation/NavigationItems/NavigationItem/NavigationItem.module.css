@@ -1,0 +1,70 @@
+.NavigationItem {
+    /* text-transform: uppercase; */
+    margin: 10px 0;
+    /* box-sizing: border-box; */
+    display: block;
+    width: 100%;
+}
+
+.NavigationItem a {
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    /* box-sizing: border-box; */
+    display: block;
+}
+
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active {
+    font-weight: bold;
+    color: black;
+}
+
+
+@media (min-width: 500px) {
+  .NavigationItem{
+      font: inherit;
+      background-color: rgba(30,35,40,0.6);
+      padding: 0.5rem 2rem;
+      color: white;
+      /* border: 1px solid white; */
+      margin: 0.5rem 0.5rem;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 8rem;
+      transition: 0.3s ease-in;
+    }
+    
+  .NavigationItem a {
+  color: white;
+  text-decoration: none;  
+  width: 100%;
+  /* box-sizing: border-box; */
+  display: block;
+  text-align: center;
+  }
+
+  .NavigationItem:hover{
+    box-shadow:        
+      0px 0px 12px 0 rgba(245,245,245, 0.5),
+      0px 0px 12px 0 rgba(130,130,130, 0.8);
+  }
+
+  .NavigationItem:hover,
+  .NavigationItem:active,
+  .NavigationItem.active {
+      font-weight: bold;
+      color: white;
+  }
+
+  .NavigationItem a:hover,
+  .NavigationItem a:active,
+  .NavigationItem a.active {
+    font-weight: bold;
+    color: white;
+  }
+    
+}
+
+

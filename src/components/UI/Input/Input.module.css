@@ -1,0 +1,44 @@
+.Input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.InputElement {
+    outline: none;
+    border: 1px solid rgba(211,211,211,0.5);
+    border-radius: 2px;
+    font: inherit;
+    padding: 6px 10px;    
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0);
+    color:white;
+}
+
+.InputElement:focus {
+    outline: none;
+    background-color: rgba(211,211,211,0.5);
+    color:black;
+}
+
+.Invalid {
+    border: 1px solid red;
+    background-color: rgba(243, 152, 141, 0.5);
+    color:black;
+}
+
+.InputElement::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+.InputElement:focus::-webkit-input-placeholder {
+    color: black;
+}

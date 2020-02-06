@@ -1,0 +1,30 @@
+.Button {
+    font: inherit;
+    background: rgba(83, 95, 107, 0.5);
+    padding: 0.5rem 2rem;
+    color: white;
+    border: 1px solid white;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+  }
+  
+.Button::-webkit-file-upload-button {
+  visibility: hidden;  
+}
+.Button:hover{
+  box-shadow:        
+    0px 0px 12px 0 rgba(245,245,245, 0.5),
+    0px 0px 12px 0 rgba(130,130,130, 0.8);
+}
+
+.Success {
+  color: #5C9210;
+  font-weight: bold;
+}
+
+.Danger {
+  color: rgba(247, 13, 26, 0.8);
+  font-weight: bold;
+}

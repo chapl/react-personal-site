@@ -35,9 +35,9 @@
     color:black;
 }
 
-.InputElement::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.InputElement::placeholder { 
     color: white;
-    opacity: 1; /* Firefox */
+    opacity: 1; 
   }
 .InputElement:focus::-webkit-input-placeholder {
     color: black;

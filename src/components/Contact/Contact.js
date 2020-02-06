@@ -68,7 +68,6 @@ const Contact = () => {
 
     const submitHandler = (event) => {
         event.preventDefault();   
-        console.log('SENDER')   
         window.open('mailto:test@example.com?subject=subject&body=body');
     }
 

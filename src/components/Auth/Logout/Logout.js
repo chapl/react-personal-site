@@ -4,7 +4,6 @@ import { AuthContext } from '../../../context/auth-context';
 
 
 const Logout = props => {
-    console.log("TRIGGERED")
     const authContext = useContext(AuthContext);
     authContext.logout();
     return <Redirect to="/" />

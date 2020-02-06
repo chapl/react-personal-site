@@ -1,7 +1,6 @@
 .Top {
-    margin-top: 0.5rem;
+    margin-top: 35%;
     text-align: center;
-    /* color: rgba(23,26,30,0.8); */
     color: white;
 }
 
@@ -10,15 +9,13 @@
 }
 
 @media (min-width: 500px) {
-    .Card{    
-        margin-top: 20%;
+    .Top {
+        margin-top: 15%;
     }
 }
 
-
-
-@media(min-height: 450px){
+@media(max-height: 450px) {
     .Top {
-        margin-top: 25%;
+        margin-top: 5%;
     }
 }
